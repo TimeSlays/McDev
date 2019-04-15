@@ -1,0 +1,6 @@
+name: McDev
+version: ${project.version}
+main: git.timesslays.mcdev.McDev
+api-version: 1.12.2
+authors: [B117]
+description: Join/Quit Plugin
