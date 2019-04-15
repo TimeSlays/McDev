@@ -1,0 +1,5 @@
+name: Effects
+version: ${project.version}
+main: github.effects.effects.Effects
+authors: [Sam]
+description: Smoke effect released on Player move event

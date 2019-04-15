@@ -17,13 +17,18 @@ public class CircleEffect implements CommandExecutor {
             if (args[0].equals("tp")) {
                 player.sendMessage("Effect Started");
                 Location loc = player.getLocation();
-                player.getWorld().playEffect(loc, Effect.ENDER_SIGNAL, 0);
+                player.getWorld().playEffect(loc, Effect.SMOKE, 0);
+                player.getWorld().playEffect(loc, Effect.SMOKE, 0);
+                player.getWorld().playEffect(loc, Effect.SMOKE, 0);
+                player.getWorld().playEffect(loc, Effect.SMOKE, 0);
+                player.getWorld().playEffect(loc, Effect.SMOKE, 0);
+                player.getWorld().playEffect(loc, Effect.SMOKE, 0);
 
 
             }
-
+            return true;
         }
-        return true;
+        return false;
     }
 }
 
