@@ -8,3 +8,6 @@ commands:
   addXp:
     Description: Sends 10 Xp to the player with Message
     Usage: /addXp
+  eft:
+    Description: Circle Teleport Particle
+    Usage: /eft <tp>
