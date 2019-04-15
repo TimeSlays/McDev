@@ -1,7 +1,5 @@
 package com.github.cmds;
 
-
-import org.bukkit.Bukkit;
 import org.bukkit.Effect;
 import org.bukkit.Location;
 import org.bukkit.command.Command;
