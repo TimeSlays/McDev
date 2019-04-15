@@ -1,0 +1,10 @@
+name: Cmds
+version: ${project.version}
+main: com.github.cmds.Cmds
+authors: [Sam]
+description: List of useful commands
+website: https://github.com/TimeSlays/McDev
+commands:
+  addXp:
+    Description: Sends 10 Xp to the player with Message
+    Usage: /addXp
